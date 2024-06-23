@@ -1,0 +1,106 @@
+body{
+    text-align: center;
+    margin: 0;
+    background-color: #EDF2F7;   
+}
+
+h2{
+    font-family: Arial;
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+    color: #1746A2;
+}
+
+.login-container{
+    
+    width: 385px;   
+    margin: 30px auto; 
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+input{
+   
+    display: block;
+    width:92.5%;
+    outline: none;
+    padding:15px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.btn-login{
+    
+    margin: auto;
+    display: block;
+    margin-top: 15px;
+    padding: 15px 50px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    background-color: #5F9DF7;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-login:hover{
+    background-color: #FF731D;  
+}
+
+.forgot{
+    text-align: right;
+    color: #1746A2;
+    position: right;
+    display: block;
+    margin-top: 15px;
+    font-family: Arial;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.forgot:hover{
+    color: #FF731D;
+}
+
+.account{
+    padding: 10px;
+    text-align: left;
+    color: #FF731D;
+    font-family: Arial;
+    cursor: default;
+   
+}
+
+.signup{
+
+    color:#1746A2;
+    display:inline-block;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.2s ;
+    position: relative;
+    right: 60px;
+    bottom: 48px;
+    text-decoration: none;
+    font-family: Arial;
+  
+}
+
+.signup:hover{
+   color: #FF731D;
+
+}
+
+#logo{
+    border-radius: 50px;
+    
+}
